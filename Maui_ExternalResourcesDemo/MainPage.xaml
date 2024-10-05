@@ -3,6 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Maui_ExternalResourcesDemo.MainPage">
 
-    
+    <Grid BackgroundColor="Black">
+        <Image Source="network.svg" />
+
+        <!--
+        <Image Source="loader.gif" 
+       IsAnimationPlaying="True"/>
+        
+        IsAnimationPlaying="True" This element is for the .gif moving animation effect.-->
+    </Grid>
     
 </ContentPage>
