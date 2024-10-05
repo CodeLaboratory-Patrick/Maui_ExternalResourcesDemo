@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Maui_ExternalResourcesDemo.MainPage">
 
-    <!--
+    <!-- *Image Part*
     <Grid BackgroundColor="Black">
         <Image Source="network.svg" />
 
@@ -14,18 +14,33 @@
     </Grid> -->
 
     <StackLayout BackgroundColor="Black">
+        <!-- *Font Part*
+        
         <Label
             FontSize="50"
             FontAttributes="Bold,Italic"
             FontFamily="Creamer.ttf"
-            <!-- Creamer.ttf or MyFont. (because I already set this value in the MauiProgram.cs.). -->
+          //Creamer.ttf or MyFont. (because I already set this value in the MauiProgram.cs.)
             Text="This is a font test"
             TextColor="White" />
         
         <Label
             FontSize="50"
             Text="This is a font test"
-            TextColor="White" />
+            TextColor="White" /> -->
+
+        <!-- *Icon Part*
+        <Image>
+            <Image.Source>
+                <FontImageSource
+                    FontFamily="Icons"
+                    Glyph="&#xF164;"
+                    Size="50" />
+            </Image.Source>
+        </Image>
+        -->
+            
     </StackLayout>
-    
+
+   
 </ContentPage>
