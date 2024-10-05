@@ -13,6 +13,7 @@ namespace Maui_ExternalResourcesDemo
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Creamer.ttf", "MyFont");
                 });
 
 #if DEBUG

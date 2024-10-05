@@ -3,14 +3,29 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Maui_ExternalResourcesDemo.MainPage">
 
+    <!--
     <Grid BackgroundColor="Black">
         <Image Source="network.svg" />
 
-        <!--
         <Image Source="loader.gif" 
-       IsAnimationPlaying="True"/>
+               IsAnimationPlaying="True"/>
         
-        IsAnimationPlaying="True" This element is for the .gif moving animation effect.-->
-    </Grid>
+        // IsAnimationPlaying="True" This element is for the .gif moving animation effect.
+    </Grid> -->
+
+    <StackLayout BackgroundColor="Black">
+        <Label
+            FontSize="50"
+            FontAttributes="Bold,Italic"
+            FontFamily="Creamer.ttf"
+            <!-- Creamer.ttf or MyFont. (because I already set this value in the MauiProgram.cs.). -->
+            Text="This is a font test"
+            TextColor="White" />
+        
+        <Label
+            FontSize="50"
+            Text="This is a font test"
+            TextColor="White" />
+    </StackLayout>
     
 </ContentPage>
