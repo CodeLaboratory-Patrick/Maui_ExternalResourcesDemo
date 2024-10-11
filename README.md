@@ -95,8 +95,7 @@ In .NET MAUI, adding images to your application involves including image assets 
 
 ## Reference Sites
 - [.NET MAUI Documentation](https://learn.microsoft.com/en-us/dotnet/maui/)
-- [Microsoft Learn - Image Control](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/image)
-- [Microsoft Learn - Adding Images in MAUI](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/images)
+- [Microsoft Learn - Adding Images in MAUI]([https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/images](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/image?view=net-maui-8.0))
 
 # Adding Fonts in .NET MAUI and Key Considerations
 
@@ -201,7 +200,6 @@ var label = new Label
 ## Reference Sites
 - [.NET MAUI Documentation](https://learn.microsoft.com/en-us/dotnet/maui/)
 - [Microsoft Learn - Fonts in MAUI](https://learn.microsoft.com/en-us/dotnet/maui/user-interface/fonts)
-- [Microsoft Learn - Configure Fonts](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/fonts)
 - Font Download - DaFont (https://www.dafont.com/)
 - Useful Website - Material Studies (https://m2.material.io/design/material-studies/about-our-material-studies.html)
 
@@ -436,7 +434,6 @@ public async Task LoadXmlFileAsync(string fileName)
 
 ## Reference Sites
 - [.NET MAUI Documentation](https://learn.microsoft.com/en-us/dotnet/maui/)
-- [Microsoft Learn - File Handling in MAUI](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/files)
 - [EPPlus Documentation](https://github.com/EPPlusSoftware/EPPlus)
 - [Newtonsoft.Json Documentation](https://www.newtonsoft.com/json)
 - [Xceed DocX Library](https://github.com/xceedsoftware/DocX)
